@@ -29,12 +29,15 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Script Farm"})
-     
+     local Tab1o = MakeTab({Name = "Farm"})
+     local Tab1o = MakeTab({Name = "teleport"})
+     local Tab1o = MakeTab({Name = "misc"})
+     local Tab1o = MakeTab({Name = "raid"})
+     local Tab1o = MakeTab({Name = "other"})
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "Redz Hub",
+     Name = "cuan",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
