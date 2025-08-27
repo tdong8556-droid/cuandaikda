@@ -1,6 +1,6 @@
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
 
-       function love.load()
+
+       lfunction love.load()
     font = love.graphics.newFont(18)
     love.graphics.setFont(font)
 
@@ -9,7 +9,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         y = 200,
         w = 200,
         h = 60,
-        text = "Bấm vào tôi!",
+        text = "tapme!",
         hovered = false
     }
 end
@@ -45,15 +45,6 @@ function love.mousepressed(x, y, buttonNum)
         button.text = "Đã bấm!"
     end
 end
-
-       MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=83190276951914",
-       Size = {60, 60},
-       Color = Color3.fromRGB(10, 10, 10),
-       Corner = true,
-       Stroke = false,
-       StrokeColor = Color3.fromRGB(255, 0, 0)
-      })
       
 ------ Tab
      local Tab1o = MakeTab({Name = "Script Farm"})
@@ -68,6 +59,3 @@ end
   Translator = true; -- true/false
 }
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
-  end
-  })
